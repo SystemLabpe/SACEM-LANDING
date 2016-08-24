@@ -1,0 +1,179 @@
+/* ==================================================
+   Fonts
+================================================== */
+@font-face {
+  font-family: 'FranklinGothicDC';
+  src: url('../fonts/FRADMCN.TTF');
+}
+
+@font-face {
+  font-family: 'FranklinGothicBk';
+  src: url('../fonts/FRABK.TTF');
+}
+
+/* ==================================================
+   Basic Styles
+================================================== */
+*{
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Open Sans",Arial,Helvetica Neue,sans-serif;
+  color: #706F6F;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: 'FranklinGothicDC';
+}
+
+h1 {
+  color: #002850;
+  font-size: 120px;
+  line-height: 0.9;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 44px;
+}
+
+p {
+  font-family: 'FranklinGothicBk';
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+/* ==================================================
+    Sections
+================================================== */
+.sacem-section .container {
+  padding-top: 80px;
+}
+
+/* ==================================================
+    Home
+================================================== */
+#home {
+  background-image: radial-gradient(#FFFFFF,#D8D9DD);
+}
+
+#home .home-container {
+  text-align: center;
+}
+
+#home .home-container .logo {
+  max-width: 100%;
+}
+
+#home .home-container h2 {
+  font-family: 'FranklinGothicBk';
+  color: #0078C1;
+  font-size: 23px;
+  letter-spacing: 8px;
+}
+
+/* ==================================================
+    Demo
+================================================== */
+.demo {
+  background-color: #005775;
+}
+
+.demo .col-text,
+.demo .col-video {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
+.demo .col-text {
+  text-align: right;
+  width: 32%;
+}
+
+.demo .video-container {
+  position: relative;
+}
+
+.demo .video-container .video-js {
+  position: absolute;
+  top: 12.3%;
+  left: 5.5%;
+  width: 88.9%;
+  height: auto !important;
+  background-color: transparent;
+}
+
+.demo .video-js .vjs-tech {
+  height: auto!important;
+}
+
+.demo .video-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ==================================================
+    Contact
+================================================== */
+#contact {
+  background-color: #00A1A6;
+}
+
+#contact .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contact h2,
+#contact p {
+  text-align: center;
+}
+
+#contact p {
+  margin: 20px 0;
+}
+
+#contact .col-contact {
+  margin-top: 40px;
+}
+
+#contact .col-contact img {
+  margin: 0 auto;
+  max-width: 40px;
+  display: block;
+}
+
+#contact .col-contact p {
+  margin: 10px 0 0;
+}
+
+/* ==================================================
+    Footer
+================================================== */
+#footer {
+  min-height: 50px;
+  background-color: #00a1a6;
+}
+
+#footer p {
+  text-align: center;
+  margin-top: 11px;
+}
